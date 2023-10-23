@@ -9,9 +9,7 @@ public class Mammal extends Animal{
     public void read() {
         System.out.println(description);
     }
-    public void setDesc(String desc) {
-        this.description = desc;
-    }
+
     @Override
     public Integer getId() {
         return super.getId();

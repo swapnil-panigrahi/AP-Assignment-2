@@ -1,5 +1,5 @@
 public class Discount {
-    private String Code;
+    private final String Code;
     private Integer Percentage;
 
     public Discount(String Code, Integer Percentage) {
@@ -12,5 +12,8 @@ public class Discount {
     }
     public Integer getPercentage() {
         return Percentage;
+    }
+    public void setPercentage(Integer Percentage) {
+        this.Percentage = Percentage;
     }
 }

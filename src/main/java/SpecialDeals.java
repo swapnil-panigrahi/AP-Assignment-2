@@ -1,5 +1,5 @@
 public class SpecialDeals extends Discount {
-    private final int requiredAttractions;
+    private int requiredAttractions;
 
     public SpecialDeals(String code, int percentage, int requiredAttractions) {
         super(code, percentage);
@@ -8,5 +8,9 @@ public class SpecialDeals extends Discount {
 
     public int getRequiredAttractions() {
         return requiredAttractions;
+    }
+
+    public void setRequiredAttraction(Integer requiredAttraction) {
+        this.requiredAttractions = requiredAttraction;
     }
 }

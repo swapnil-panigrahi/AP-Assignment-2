@@ -16,11 +16,15 @@ public abstract class Animal {
     public Integer getId() {
         return id;
     }
-
     public String getSpecies() {
         return species;
     }
-
+    public String getDescription() {
+        return description;
+    }
+    public String getSound() {
+        return sound;
+    }
     public void setSpecies(String species) {
         this.species = species;
     }
@@ -30,5 +34,4 @@ public abstract class Animal {
     public void setDesc(String desc) {
         this.description = desc;
     }
-
 }
